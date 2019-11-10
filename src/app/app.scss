@@ -1,0 +1,42 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 135px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 85.4vw;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .content {
+    padding-left: 100px;
+    margin-top: 0;
+  }
+
+  .results {
+    grid-template-columns: repeat(auto-fit, 160px) !important;
+  }
+
+  .now-playing {
+    width: 30%;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: -136px;
+  width: 100%;
+  transition: all 1s ease-in-out;
+  opacity: 0;
+
+  &.playing {
+    bottom: 0;
+    opacity: 1;
+  }
+}

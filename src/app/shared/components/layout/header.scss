@@ -1,0 +1,19 @@
+.toolbar {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  height: 43px;
+
+  .logo {
+    transition: opacity 300ms ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    svg {
+      height: 43px;
+      fill: white;
+    }
+  }
+}

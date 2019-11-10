@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca7c4931-e1d0-47a2-80b5-d3673385c8b1" name="Default Changelist" comment="Initial commit from Create React App">
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/album/album.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/audio.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/components/filter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/components/items.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/components/items.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/components/layout/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/components/layout/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/components/layout/player.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/components/layout/player.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/hooks/debounce.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/album/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/album/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/album/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/album/saga.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/album/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/search/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/search/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/search/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/search/saga.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/search/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/utils/msToTime.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react_spotify_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react_spotify_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/interceptors/auth.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/album/album.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/album/album.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/search/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/search/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/spotifyApiService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/spotifyApiService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/components/layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/layout/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/components/results.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/results.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/guards/loggedIn.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/guards/loggedIn.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/auth/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/auth/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/auth/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/auth/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/auth/saga.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/auth/saga.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/auth/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/auth/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/layout/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/layout/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/layout/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/layout/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/layout/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/layout/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/utils/callAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/utils/callAPI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TQB7kHF7umpPfaiZI0XIcGqLOF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/shared/components/layout" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/shared/components/layout" />
+      <recent name="$PROJECT_DIR$/src/app/store" />
+      <recent name="$PROJECT_DIR$/src/app/pages/album" />
+      <recent name="$PROJECT_DIR$/src/app/services" />
+      <recent name="$PROJECT_DIR$/src/app/shared/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/shared/components/layout" />
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/public/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca7c4931-e1d0-47a2-80b5-d3673385c8b1" name="Default Changelist" comment="" />
+      <created>1573382273153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573382273153</updated>
+      <workItem from="1573382274316" duration="317000" />
+      <workItem from="1573382962813" duration="3774000" />
+      <workItem from="1573386971342" duration="13075000" />
+      <workItem from="1573401998165" duration="27135000" />
+      <workItem from="1573492541831" duration="32558000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit from Create React App">
+      <created>1573382341319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573382341319</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit from Create React App">
+      <created>1573382360406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573382360406</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit from Create React App">
+      <created>1573402838641</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573402838641</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit from Create React App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit from Create React App" />
+  </component>
+</project>

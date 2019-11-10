@@ -1,0 +1,124 @@
+/* You can add global styles to this file, and also import other style files */
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #0d1016;
+}
+
+@import './webfonts/roboto/roboto';
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  margin: 0;
+  font-family: Roboto, 'sans-serif';
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+  background-color: var(--body-bg-color);
+}
+
+input {
+  background: none;
+  color: #c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.8);
+
+  &:focus {
+    outline: none;
+
+    ~ .input-bar:before {
+      width: 100%;
+    }
+  }
+}
+
+label {
+  color: white;
+  font-weight: normal;
+  transition: 300ms ease all;
+}
+
+.input-bar {
+  position: relative;
+  display: block;
+  width: 100%;
+
+  &:before {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: rgba(153, 153, 153, 1);
+    transition: 300ms ease all;
+    left: 0;
+  }
+}
+
+.search-info {
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  color: #999999;
+  position: relative;
+  text-decoration: none;
+
+  .card-image {
+    position: relative;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+
+    p {
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+
+      &:first-child {
+        color: #fafafa;
+      }
+    }
+  }
+
+  &:hover,
+  &.playing {
+    .play-btn {
+      opacity: 1;
+    }
+  }
+}
